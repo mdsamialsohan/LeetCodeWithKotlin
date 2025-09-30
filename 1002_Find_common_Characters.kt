@@ -1,4 +1,4 @@
-class Solution {
+
     fun commonChars(words: Array<String>): List<String> {
         val cnt = IntArray(26){Int.MAX_VALUE}
         for(word in words)
@@ -23,4 +23,3 @@ class Solution {
         }
         return res
     }
-}
